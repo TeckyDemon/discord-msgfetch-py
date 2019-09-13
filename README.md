@@ -32,6 +32,7 @@
 
 ## Requirements
 
+- [pytz](https://pypi.org/project/pytz/)
 - [asyncio](https://pypi.org/project/asyncio/)
 - [discord.py](https://pypi.org/project/discord.py/)
 
