@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.3] - 2019-09-16
+
+### Fixed
+
+##### [main.py](main.py)
+
+- Limit bug.
+
 ## [1.0.2] - 2019-09-13
 
 ### Removed

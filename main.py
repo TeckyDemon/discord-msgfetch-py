@@ -15,7 +15,7 @@ class Client(DiscordClient):
 							'timestamp' : int((timezone('UTC').localize(m.created_at)).timestamp()*1000),
 							'author'    : str(m.author.id),
 							'content'   : m.content
-						} for m in await c.history(oldest_first=True).flatten() if not m.author.bot
+						} for m in await c.history(limit=None,oldest_first=True).flatten() if not m.author.bot
 					} for c in self.guilds[0].channels if c.type==ChannelType.text
 				},f,indent=4,ensure_ascii=False
 			)
